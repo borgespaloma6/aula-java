@@ -1,0 +1,44 @@
+package Fundamentos;
+
+import java.util.Scanner;
+
+public class leitordias {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner entrada = new Scanner(System.in);
+		System.out.print("Digite um numero: ");
+		int resp = entrada.nextInt();
+		
+		if(resp == 1) {
+			System.out.printIn("Domingo");
+		} else if (resp == 2) {
+			System.out.printIn("Segunda");
+		}
+		//senao se resp
+		
+		else if (resp == 3) {
+			System.out.printIn("Terça");	
+		} else if (resp == 4) {
+			System.out.printIn ("Quarta");
+		}else if (resp == 5){
+			System.out.println("Quinta");
+		}else if (resp == 6) {
+			System.out.printIn("Sexta");
+		}else if (resp == 7) {
+			System.out.printIn("Sabado");
+		}else {
+			System.out.printIn("é de 1 a 7 Dias !!");
+				
+			
+				
+			
+			
+	
+	
+		}
+	
+		
+		}
+		
+}

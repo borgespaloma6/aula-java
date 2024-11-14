@@ -1,0 +1,15 @@
+package Fundamentos;
+
+import java.util.Scanner;
+
+public class atv01 {
+
+	public static void main(String[] args) {
+		 Scanner Scanner = new Scanner(System.in)
+		int x = 5;
+		System.out.println("paloma");
+		System.out.println(x);
+		double valor = Scanner.nextDouble();
+	}
+
+}

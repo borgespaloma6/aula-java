@@ -1,0 +1,28 @@
+package Fundamentos;
+
+import java.util.Scanner;
+
+public class atv01 {
+
+	public static void main(String[] args) {
+		 Scanner Scanner = new Scanner(System.in);
+		int x = 5;
+		System.out.println("paloma");
+		System.out.println(x);
+		double valor = Scanner.nextDouble();
+		System.out.println(valor);
+		System.out.println();
+		System.out.println("Digite sua idade");
+		if (valor>=18) {
+			System.out.println("De maior"+valor);
+			
+		}
+		
+		else {System.out.println("Menor"+valor);
+		
+		}
+		
+		
+	}
+
+}
